@@ -1,4 +1,5 @@
-﻿using System;
+//In order for the address book to be fully operational please insert your songs(mp3 format) into ~/AddressBook/Debug folder.﻿
+using System;
 using System.Data.OleDb;
 using System.Data;
 using System.Drawing;
@@ -204,7 +205,6 @@ namespace AddressBook
                 pictureBox1.Image = file;
             }
         }
-
         private void MusicLabel_Click(object sender, EventArgs e)
         {
 
